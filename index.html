@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aliento Therapy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Aliento Therapy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Despre mine</a></li>
+          <li><a href="#experience">Motivația și rolul</a></li>
+          <li><a href="#projects">Servicii</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Aliento Therapy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Despre mine</a></li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()">Motivația și rolul</a>
+          </li>
+          <li><a href="#projects" onclick="toggleMenu()">Servicii</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/logo.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Ce este</p>
+        <h1 class="title">Aliento Therapy</h1>
+        <br />
+        <p class="text-description">
+          La Aliento Therapy se urmărește ghidarea pe calea spre autocunoaștere,
+          vindecare și dezvoltare personală. Fiecare persoană are un potențial
+          nelimitat și prin sprijinul potrivit, poate atinge o stare de bine și
+          echilibru în toate aspectele vieții sale.
+          <br />
+          <br />
+          Aliento este un serviciu de coaching adresat persoanelor care nu sunt
+          încă pregătite să meargă la terapie cu un psiholog, persoanelor care
+          au întâmpinat un blocaj și vor să aibă o discuție cu cineva, să fie
+          ascultați și să încerce să găsească o soluție. Vii într-un mediu
+          liniștit, tragi aer în piept și spui ce te macină.
+          <br /><br />
+
+          Prima ședință este gratuită pentru a te familiariza cu serviciile
+          oferite, dar mai ales pentru a ne cunoaște și a decide dacă este cazul
+          să mergem mai departe spre alte ședințe. Eu voi încerca să te ajut,
+          iar dacă simți nevoia să mergi către un psiholog te pot recomanda mai
+          departe. De asemenea, dacă eu voi simți că sunt depășit de o anumită
+          situație, te voi îndruma către un psiholog.
+          <br /><br />
+
+          Scopul meu principal prin crearea acestui concept în România este să
+          ajut oamenii în dificultate, fară a pune o presiune financiară mare pe
+          bugetul familiei. În situații excepționale putem discuta și despre
+          reducerea tarifului per ședintă sau un set de ședințe gratuite.
+        </p>
+        <br />
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='#projects'">
+            Vezi servicii
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Află mai multe</p>
+      <h1 class="title2">Despre mine</h1>
+      <br ><br>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/me.jpeg" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p class="section__text__p4">
+              Salut! Numele meu este Cătălin Răileanu și în cei 40 de ani
+              trăiți, am învățat că este important să fii ascultat și înțeles
+              pentru a reuși să treci peste și prin momentele dificile în viață.
+              Nu este doar important să treci peste aceste momente, dar să și
+              înveți din ele și să ajungi chiar să prețuiești aceste lecții pe
+              care le primești prin anxietate și durere de la viață. Am crescut
+              într-o familie simplă, de la sat, într-un oraș mic de provincie
+                din Moldova, aproape de Iași, care se numește Târgul Frumos.<br />
+              Momentan, pe lângă coaching, mă mai ocup cu management imobiliar –
+              ceea ce mă ajută să fiu serios și organizat – și, de asemenea, cu
+              stand-up comedy – ceea ce mă ajută să îmi mențin simțul umorului
+              indiferent de cât de greu îmi este în anumite situații. De
+              asemenea, fac și dansuri latino, care mă ajută să nu uit să mă
+              joc, să improvizez și să mă bucur ca un copil de fiecare zi în
+              parte. 
+            </p>
+          </div> 
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3 >Competențe</h3>
+              <p class="text-container">
+                Mi-am dezvoltat competențele prin interacțiunea cu diverse
+                situații și oameni si prin cursuri de specializare în coaching.
+                În permanență, mă străduiesc să îmi îmbunătățesc cunoștințele și
+                să adopt cele mai eficiente metode și tehnici pentru a oferi
+                suportul de care aveți nevoie.
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Calificări</h3>
+              <p class="text-container">
+                 • Diplomă în Jurnalism și Științele Comunicării, Universitatea
+                  „Al. Ioan Cuza” din Iași.
+               <br/>  
+                 • Life Coaching Diploma, Centre of Excellence UK – rating pe
+                  TrustPilot: 4.8 din 5, la un total de peste 5000 de review-uri
+                  oferite.
+              <br/>                • Voluntariat la un spital de bătrâni în Marea Britanie timp de
+                  6 luni.
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Care este</p>
+      <h1 class="title2">Motivația și rolul meu</h1>
+      <br />
+      <p class="section__text__p5">
+        Ce mă califică cel mai tare pentru a ajuta alți oameni este faptul că am
+        trecut prin niște lucruri care, în loc să mă facă să capitulez, m-au
+        întărit. Tot parcursul meu profesional – jurnalist, organizator
+        evenimente, consultant financiar, agent imobiliar – m-a dus spre
+        interacțiuni cu oameni diverși și m-a ajutat să îmi dezvolt abilitatea
+        de a crea poduri cu străini fără a judeca și eticheta pe cei din jur.
+      </p>
+      <div class="experience-details-container">
+        <div class="about-containers1">
+          <div class="details-container">
+            <img src="./assets/family.png" alt="Experience icon" class="icon" />
+            <p class="section__text__p3">
+              În copilărie am văzut multă violență fizică și verbală, pe fond de
+              alcool, între principalii mei protectori – părinții. Momentele
+              când tatăl o lovea cu brutalitate pe mama în fața mea, un copil de
+              3-5 ani, mi-au rămas gravate pe retină. Dar am reușit să îi
+              înțeleg pe ai mei și să accept că aia a fost realitatea în care am
+              crescut și nu este vina mea sau a lor că s-a întâmplat asta.
+            </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/girl.png" alt="Experience icon" class="icon" />
+            <p class="section__text__p3">
+              Am avut o soră mai mică cu 3 ani, care a fost paralizată pe partea
+              dreaptă a corpului și am avut grijă de ea împreună cu mama mea. A
+              trăit până la 14 ani fără să poată să vorbească sau să meargă, și
+              asta mi-a dat o lecție prețioasă vizavi de compasiune pentru cei
+              din jurul nostru, care au nevoie de sprijin și ajutor.
+            </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/drink.png" alt="Experience icon" class="icon" />
+            <p class="section__text__p3">
+              La 17 ani, taică-miu, într-o stare avansată de ebrietate, mi-a dat
+              o palmă zdravănă și mi-a cerut să îi plătesc chirie dacă doresc să
+              mai locuiesc la el acasă, și atunci a trebuit să plec de acasă și
+              să caut să îmi fac un rost cu 0 lei în buzunar.
+            </p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/big-ben.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <p class="section__text__p3">
+              Am trăit 10 ani în Londra, un oraș vibrant cu multe culturi
+              diferite puse la un loc. Acolo am căpătat ceva modestie în ceea ce
+              privește calitatea mea de român creștin-ortodox. Am învățat că
+              există valoare și în alte culturi, religii și stiluri de viață și
+              că suntem, la sfârșitul zilei, cu toții locuitori ai Pământului și
+              întâmplător ne-am născut într-o anumită parte a Planetei, având o
+              anumită culoare a pielii.
+            </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/couple.png" alt="Experience icon" class="icon" />
+
+            <p class="section__text__p3">
+              Am trecut prin diferite relații sentimentale care au presupus
+              narcisism toxic, probleme de comunicare, plictiseală, copii,
+              adulter și alte complicații, și asta m-a învățat că e un lucru
+              complex și greu să fii într-o relație sănătoasă și stabilă de
+              cuplu. Acum, spre 40 de ani, am reușit să mă raportez la relații
+              de cuplu într-un mod sănătos și să fiu cu o femeie care simt că mă
+              sprijină, respectă, împlinește și iubește într-un mod non-toxic,
+              iar eu, la rândul meu, ofer aceleași lucruri.
+            </p>
+          </div>
+
+          <div class="details-container">
+            <img
+              src="./assets/heart-beat.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <p class="section__text__p3">
+              Am pierdut oameni dragi în circumstanțe tragice și asta m-a
+              învățat să prețuiesc viața, pentru că nu știm cât o să dureze
+              acest parcurs fascinant care ne este dăruit la naștere.
+            </p>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Vezi</p>
+      <h1 class="title">Servicii</h1>
+      <div class="experience-details-container">
+        <div class="about-containers1">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/on-site.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Ședință individuală
+            </h2>
+            <p class="section__text__p1">
+              În cadrul ședințelor individuale, veți lucra într-un cadru sigur
+              și confidențial pentru a explora și rezolva problemele personale.
+              Aceste sesiuni sunt menite să vă ajute să vă înțelegeți mai bine
+              emoțiile, să depășiți provocările și să vă atingeți obiectivele
+              personale.
+            </p>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://cal.com/aliento-therapy/sedinta-individuala'"
+              >
+                Programare
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/online-therapy.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Ședință individuală online
+            </h2>
+            <p class="section__text__p1">
+              Pentru cei care preferă confortul propriei locuințe, oferim
+              ședințe individuale online. Aceste sesiuni vă permit să
+              beneficiați de aceeași calitate a serviciilor noastre, indiferent
+              de locație. Prin intermediul unei platforme securizate, veți putea
+              discuta deschis și în siguranță, exact ca în cazul ședințelor față
+              în față.
+            </p>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://cal.com/aliento-therapy/sedinta-online'"
+              >
+                Programare
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/couple-therapy.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ședință de cuplu</h2>
+            <p class="section__text__p1">
+              Ședințele de cuplu sunt concepute pentru a ajuta partenerii să își
+              îmbunătățească relația, să comunice mai eficient și să rezolve
+              conflictele într-un mod constructiv. Indiferent dacă treceți
+              printr-o perioadă dificilă sau doriți să vă consolidați legătura,
+              aceste sesiuni oferă un spațiu sigur pentru amândoi să vă
+              exprimați și să lucrați împreună spre un viitor mai armonios.
+            </p>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://cal.com/aliento-therapy/sedinta-de-cuplu'"
+              >
+                Programare
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Vezi datele de</p>
+      <h1 class="title">Contact</h1>
+ <div class="contact-container">
+      <!-- Left Column: Form -->
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Nume <span class="required">(obligatoriu)</span></label>
+          <input type="text" id="name" name="name" required placeholder="Scrie numele tău" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span class="required">(obligatoriu)</span></label>
+          <input type="email" id="email" name="email" required placeholder="Scrie e-mail-ul tău" />
+        </div>
+        <div class="form-group">
+          <label for="message">Mesaj</label>
+          <textarea id="message" name="message" placeholder="Scrie mesajul tău"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Trimite</button>
+      </form>
+<div id="success-message">
+  Mesajul a fost trimis cu succes!
+</div>
+      <!-- Right Column: Map -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.372729004014!2d26.04437977648709!3d44.41801997910279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3a6c06724b%3A0x83d6e3ef70bcd426!2sAleea%20Poiana%20Cernei%204%2C%20Bucure%C8%99ti%2C%20Romania!5e0!3m2!1sen!2sro!4v1698677314954!5m2!1sen!2sro"
+          width="100%"
+          height="350"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <!-- Map Details -->
+        <div class="map-details">
+          <div class="map-info">
+            <div class="location">
+              <h3>Locația</h3>
+              <p>str. Aleea Poiana Cernei 4,</p>
+              <p>București, Drumul Taberei</p>
+            </div>
+            <div class="contact-info">
+              <h3>Contacte</h3>
+              <p>alientotherapy@gmail.com</p>
+              <p>0768684949</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+  <button id="scrollToTopBtn"></button>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Despre mine</a></li>
+            <li><a href="#experience">Motivația și rolul</a></li>
+            <li><a href="#projects">Servicii</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Aliento Therapy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
